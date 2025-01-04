@@ -1,21 +1,35 @@
 {
+  "name": "transfer",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0",
-    "esm": "^3.2.25",
-    "jsx": "^0.9.89",
-    "tsx": "^4.19.2",
-    "minimist": ">=0.2.4"
+    "cra-template": "1.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "5.0.1"
   },
-  "name": "team-site",
-  "version": "1.0.0",
-  "description": "Simple overview of use/purpose.",
-  "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
