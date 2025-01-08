@@ -1,4 +1,4 @@
-import './resources.scss';
+import './Resources.scss';
 import YouTube from "react-youtube";
 
 function Resources(props) {

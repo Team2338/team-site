@@ -1,5 +1,5 @@
 import React from 'react';
-import './notFound.scss';
+import './NotFound.scss';
 
 const DadBot = () => {
   const sentences = [

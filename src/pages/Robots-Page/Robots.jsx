@@ -1,4 +1,4 @@
-import './robots.scss';
+import './Robots.scss';
 import {
     ArrowBack,
     ArrowForward
@@ -10,55 +10,55 @@ function Robots(props) {
     const data = [
         {
             title: "Zephyr",
-            img: "imgs/bots/2023bot.jpg",
+            img: "Bots/2023bot.jpg",
             desc: "Charged Up",
             imgDesc: ""
         },
         {
             title: "Viper",
-            img: "imgs/bots/mickschumi.jpg",
+            img: "Bots/mickschumi.jpg",
             desc: "Michael is a sellout",
             imgDesc: "t"
         },
         {
             title: "Prowler",
-            img: "imgs/bots/yewre.jpg",
+            img: "Bots/yewre.jpg",
             desc: "Michael is a sellout",
             imgDesc: ""
         },
         {
             title: "Vanguard",
-            img: "imgs/bots/rembo.jpg",
+            img: "Bots/rembo.jpg",
             desc: "Michael is a sellout",
             imgDesc: ""
         },
         {
             title: "Chef",
-            img: "imgs/bots/yesrer.jpg",
+            img: "Bots/yesrer.jpg",
             desc: "Michael is a sellout",
             imgDesc: ""
         },
         {
             title: "Flatline",
-            img: "imgs/bots/flynn.jpg",
+            img: "Bots/flynn.jpg",
             desc: "Michael is a sellout",
             imgDesc: ""
         },
         {
             title: "Flynn Rider",
-            img: "imgs/bots/2016bot.jpg",
+            img: "Bots/2016bot.jpg",
             desc: "Michael is a sellout",
             imgDesc: ""
         },
         {
             title: "Phantom",
-            img: "imgs/bots/patrick2015.jpg",
+            img: "Bots/patrick2015.jpg",
             desc: "Michael is a sellout",
             imgDesc: ""
         },
         {
             title: "Fumper",
-            img: "imgs/bots/2014bot.jpg",
+            img: "Bots/2014bot.jpg",
             desc: "Michael is a sellout",
             imgDesc: ""
         }

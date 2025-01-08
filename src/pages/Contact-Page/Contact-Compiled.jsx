@@ -1,5 +1,5 @@
 import './Contact.scss';
-import Intro from "./Intro.jsx";
+import Intro from "./Contact-Intro.jsx";
 import ContactForm from "./Details/ContactForm.jsx";
 
 function Contact(props) {

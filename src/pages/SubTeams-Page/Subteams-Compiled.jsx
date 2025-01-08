@@ -1,13 +1,13 @@
-import "./subteams.scss";
-import ElectricalTeam from "./subteams/ElectricalTeam";
-import MarketingTeam from "./subteams/MarketingTeam";
-import MechanicalTeam from "./subteams/MechanicalTeam";
-import OutreachTeam from "./subteams/OutreachTeam";
-import ScoutingTeam from "./subteams/ScoutingTeam";
-import SoftwareTeam from "./subteams/SoftwareTeam";
-import TeamCaptain from "./subteams/TeamCaptain";
-import TeamLeaders from "./subteams/TeamLeaders";
-import Intro from "./Intro";
+import "./Subteams.scss";
+import ElectricalTeam from "./SubTeams/ElectricalTeam.jsx";
+import MarketingTeam from "./SubTeams/MarketingTeam.jsx";
+import MechanicalTeam from "./SubTeams/MechanicalTeam.jsx";
+import OutreachTeam from "./SubTeams/OutreachTeam.jsx";
+import ScoutingTeam from "./SubTeams/ScoutingTeam.jsx";
+import SoftwareTeam from "./SubTeams/SoftwareTeam.jsx";
+import TeamCaptain from "./SubTeams/TeamCaptain.jsx";
+import TeamLeaders from "./SubTeams/TeamLeaders.jsx";
+import Intro from "./Subteams-Intro.jsx";
 
 function Subteams() {
     return (

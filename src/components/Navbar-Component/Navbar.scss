@@ -26,6 +26,10 @@ body{
         display: flex;
         gap: 1rem;
 
+        li a {
+            text-decoration: none; // Add this line to remove underline from links
+        }
+
         &:hover {
             color: $owHighlight;
             transition: 150ms ease;

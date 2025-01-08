@@ -1,4 +1,4 @@
-import './outreach.scss';
+import './Outreach.scss';
 import '../../globals.scss';
 import TypeWriter from "typewriter-effect";
 

@@ -1,11 +1,11 @@
 import "./Sponsors.scss";
 import Intro from "./Sponsors-Intro";
-import Caterpillar from "./sponsors/Caterpillar";
-import Molex from "./sponsors/Molex";
-import CargoHansa from "./sponsors/CargoHansa";
-import TEConnectivity from "./sponsors/TEConnectivity";
-import GERB from "./sponsors/GERB";
-import IFoundation from "./sponsors/IntuitiveFoundation";
+import Caterpillar from "./Sponsors/Caterpillar.jsx";
+import Molex from "./Sponsors/Molex.jsx";
+import CargoHansa from "./Sponsors/CargoHansa.jsx";
+import TEConnectivity from "./Sponsors/TEConnectivity.jsx";
+import GERB from "./Sponsors/GERB.jsx";
+import IFoundation from "./Sponsors/IntuitiveFoundation.jsx";
 
 function Sponsors() {
     return (

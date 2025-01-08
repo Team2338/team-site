@@ -1,4 +1,4 @@
-import './subteams.scss';
+import './Subteams.scss';
 import '../../globals.scss';
 import TypeWriter from "typewriter-effect";
 

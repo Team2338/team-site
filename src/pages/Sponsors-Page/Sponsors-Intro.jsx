@@ -1,4 +1,4 @@
-import './sponsors.scss';
+import './Sponsors.scss';
 import '../../globals.scss';
 import TypeWriter from "typewriter-effect";
 
