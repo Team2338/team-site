@@ -1,0 +1,94 @@
+@import "../../globals";
+
+*{
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body{
+    margin: 0;
+}
+
+.navbar {
+    color: $offwhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    height: 10vh;
+
+    ul {
+        padding-right: 2vw;
+        padding-left: 2vw;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+
+        li a {
+            text-decoration: none; // Add this line to remove underline from links
+        }
+
+        &:hover {
+            color: $owHighlight;
+            transition: 150ms ease;
+        }
+    }
+
+    .logo-nav {
+        margin-top: .2rem;
+
+        img {
+            width: 3vw;
+        }
+        @media (max-width: 927px) {
+            display: none;
+        }
+    }
+
+    .title-nav h1 {
+        margin-top: 1.4rem;
+        font-size: 3.5vh;
+        font-weight: 500;
+        color: $offwhite;
+        
+        @media (max-width: 927px) {
+            padding: 2vh .5em;;
+        }
+
+        &:hover {
+            color: $orange;
+            transition: 150ms ease;
+        }
+    }
+
+    .nav-links {
+        padding-left: 1rem;
+        a {
+            font-weight: 200;
+            color: $offwhite;
+            font-size: 2.25vh;
+            padding: .5em;
+            border-radius: 8px;
+
+            &:hover {
+                color: $owHighlight;
+                transition: 90ms ease;
+                outline: 1.5px solid $orange;
+                background-color: $offblue;
+                border-radius: 8px;
+            }
+        }
+    }
+
+    li {
+        transition: all ease 1s;
+        &:hover {
+            color: $offwhite;
+        }
+        &:active {
+            color: $owHighlight;
+        }
+    }
+}
