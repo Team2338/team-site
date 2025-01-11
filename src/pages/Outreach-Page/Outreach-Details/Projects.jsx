@@ -53,7 +53,7 @@ function Projects(props) {
                 <p className="description">{project.description}</p>
             </div>
             <div className="right">
-                <img src={project.image} alt="photo"/>
+                <img src={project.image} alt="Photo"/>
             </div>
         </div>
     );

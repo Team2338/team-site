@@ -6,7 +6,7 @@ function NotFound(props) {
         <div className="null" id="null">
             <div className="Content">
                 <div className="left">
-                    <img src="imgs/2338-logo.svg" alt="2338 Logo" width="404vh" height="404vh"/>
+                    <img src="2338-logo.svg" alt="2338 Logo" width="404vh" height="404vh"/>
                 </div>
                 <div className="right">
                     <div className="wrapper">
