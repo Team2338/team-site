@@ -18,7 +18,9 @@
 
 ### 9. Legal Compliance ☐
 
-### 10. Final Review ☐
+### 10. Sitemap ☐
+
+### 11. Final Review ☐
 
 # 2338 Team Website
 
