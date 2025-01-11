@@ -9,6 +9,12 @@ function Robots(props) {
     const [currentSlide, setCurrentSlide] = useState(0);
     const data = [
         {
+            title: "Tango",
+            img: "Bots/2024Tango.png",
+            desc: "Michael is a sellout",
+            imgDesc: ""
+        },
+        {
             title: "Zephyr",
             img: "Bots/2023bot.jpg",
             desc: "Charged Up",
