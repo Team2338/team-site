@@ -1,16 +1,26 @@
-# TO-DO
+# Launch Check-List
 
-Scale of important 1 (not important) - 5 (very important) 
+### 1. Content Review ☑
 
-### Update page info to current season AE: Outreach (3)
+### 2. Design and Layout ☑
 
-### Update all Bot information (2)
+### 3. Functionality ☑
 
-### Implement Sponsors Page (4)
+### 4. SEO and Analytics ☐
 
-### Beuatify Resources Page (1)
+### 5. Performance ☐
 
-### More, will be decided later...
+### 6. Accessibility ☐
+
+### 7. Security ☐
+
+### 8. Backup and Recovery ☐
+
+### 9. Legal Compliance ☐
+
+### 10. Sitemap ☐
+
+### 11. Final Review ☐
 
 # 2338 Team Website
 
