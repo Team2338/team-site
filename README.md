@@ -2,9 +2,26 @@
 
 ### 1. Content Review ☑
 
+We should consider obfuscating the email address, otherwise the coaches email will start getting a bunch of spam.
+
+Are the sponsors up to date? I haven't heard of half of em....
+
 ### 2. Design and Layout ☑
 
+The subteam pictures need more whitespace around them. could be acheived either via CSS or modifying the image files.
+
+RESPNSIVE DESIGN?????
+Theres overflowing text everywhere, no mobile nav, etc.
+
+We probably should switch the twitter logo for the X logo
+
+Go through the branding guide and make sure we're complying with the font uses, logo uses, color uses, etc
+
 ### 3. Functionality ☑
+
+How is that contact form going to work. That seems like it will need a backend which seems unecesary considering that we disclose the email right beside it.
+
+Ideally on the robots page, and then end it'd seemlessly scroll back to the beginning instead of scrolling past all of them to get there
 
 ### 4. SEO and Analytics ☐
 
@@ -15,6 +32,8 @@
 ### 7. Security ☐
 
 ### 8. Backup and Recovery ☐
+
+Not sure what this one means really. Its in git, not sure how to back it up much further than that
 
 ### 9. Legal Compliance ☐
 
@@ -32,14 +51,13 @@ This is the repo for the 2338 Team website (currently W.I.P), this website aims 
 
 Yes, App development creates our season scounting app, to collect data. This site shows possible investors or interested people what / who we are.
 
-##  Who are the Team Members that developed this site?
+## Who are the Team Members that developed this site?
 
 The Team members include, Douglas Kampschroer, Rohan Cherukuri, Geetansh Gambhir, Tharun S. Brayden Dyche, and Ronan Ludvigsen.
 
-
 ### Below is the basics to Create React provided by "Create React App"
 
-----------------------------------------------------------------------
+---
 
 # Getting Started with Create React App
 

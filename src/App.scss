@@ -1,21 +1,19 @@
 @import "./globals";
 
-*{
-    box-sizing: border-box;
-    font-family: "Roboto";
+* {
+	box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
+	margin: 0;
 }
 
 .App {
-    transition: background-color 100ms ease;
-    background-color: $blue;
+	transition: background-color 100ms ease;
+	background-color: $blue;
 }
 
 // .tablet-screen-message {
 //     display: none;
 //     color: $offBlack;
-// 
+//
