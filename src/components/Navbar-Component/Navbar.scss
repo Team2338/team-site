@@ -4,6 +4,19 @@ body {
 	margin: 0;
 }
 
+// .class.class to boost specificity
+// and override the navbar styles
+@media (min-width: 1050px) {
+	.mobileNav.mobileNav {
+		display: none;
+	}
+}
+
+@media (max-width: 1050px) {
+	.desktopNav.desktopNav {
+		display: none;
+	}
+}
 .navbar {
 	color: $offwhite;
 	display: flex;
@@ -35,11 +48,12 @@ body {
 		margin-top: 0.2rem;
 
 		img {
-			width: 3vw;
+			// width: 3vw;
+			max-width: 50%;
 		}
-		@media (max-width: 927px) {
-			display: none;
-		}
+		// @media (max-width: 927px) {
+		// 	display: none;
+		// }
 	}
 
 	.title-nav h1 {
@@ -48,9 +62,9 @@ body {
 		font-weight: bold;
 		color: $offwhite;
 
-		@media (max-width: 927px) {
-			padding: 2vh 0.5em;
-		}
+		// @media (max-width: 927px) {
+		// 	padding: 2vh 0.5em;
+		// }
 
 		&:hover {
 			color: $orange;
@@ -86,4 +100,38 @@ body {
 			color: $owHighlight;
 		}
 	}
+}
+
+.nav-elements {
+	position: fixed;
+	right: 0;
+	top: 0;
+	background-color: $offblue;
+	width: 0;
+	height: 100vh;
+	transition: all 0.3s ease-in;
+	overflow: hidden;
+	z-index: 5;
+
+	svg {
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+		color: $offwhite;
+		font-size: 2rem;
+		cursor: pointer;
+	}
+
+	a {
+		display: block;
+		color: $offwhite;
+		padding: 1em;
+		text-decoration: none;
+		font-size: 1.5em;
+		width: 80%;
+	}
+}
+
+.nav-elements.active {
+	width: 270px;
 }

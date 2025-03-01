@@ -1,218 +1,224 @@
 @import "../../globals";
 
 .resources {
-  .content2 {
-    margin-left: 50px;
-    margin-top: 4rem;
+	.content2 {
+		// margin-left: 50px;
+		margin-top: 4rem;
 
-    .youtube {
-      padding: 1vh;
-      height: 100%;
-      width: 100%;
-    }
+		.youtube {
+			padding: 1vh;
+			height: 100%;
+			width: 100%;
+		}
 
-    .title {
-      font-size: 33px;
-      font-weight: 400;
-      color: $orange;
-    }
-    .training-list {
-      margin-top: 1rem;
-      .title {
-        font-size: 23px;
-        color: $offwhite;
-      }
-      .link-list {
-        padding-top: 10px;
-      }
-      .link {
-        color: $grey;
-        text-decoration: underline;
-         &:hover {
-           color: $orange;
-           transition: .2s ease;
-         }
-      }
-    }
+		.title {
+			font-size: 33px;
+			font-weight: 400;
+			color: $orange;
+		}
+		.training-list {
+			margin-top: 1rem;
+			.title {
+				font-size: 23px;
+				color: $offwhite;
+			}
+			.link-list {
+				padding-top: 10px;
+			}
+			.link {
+				color: $grey;
+				text-decoration: underline;
+				&:hover {
+					color: $orange;
+					transition: 0.2s ease;
+				}
+			}
 
-    .game-manual {
-      .title {
-        margin-top: 1rem;
-        font-size: 23px;
-        color: $offwhite;
-      }
+			.game-manual {
+				.title {
+					margin-top: 1rem;
+					font-size: 23px;
+					color: $offwhite;
+				}
 
-      .link-list {
-        .sub-title {
-          font-weight: 300;
-          margin-top: 9px;
-        }
-        .link {
-          color: $grey;
-          text-decoration: underline;
-          margin-left: 10px!important;
-          &:hover {
-            color: $orange;
-            transition: .2s ease;
-          }
-        }
-      }
-    }
-  }
-}
+				.link-list {
+					.sub-title {
+						font-weight: 300;
+						margin-top: 9px;
+					}
+					.link {
+						color: $grey;
+						text-decoration: underline;
+						margin-left: 10px !important;
+						&:hover {
+							color: $orange;
+							transition: 0.2s ease;
+						}
+					}
+				}
+			}
+		}
+	}
 
-.content {
-  margin-top: 8rem;
+	.content {
+		margin-top: 3em;
 
-  @media (max-width: 927px) {
-    margin-top: 4rem;
-    padding: 0 1rem;
-  }
-}
+		h1 {
+			font-size: 4rem;
+			text-align: center;
+		}
 
-section {
-  margin-bottom: 5rem;
+		@media (max-width: 927px) {
+			margin-top: 4rem;
+			padding: 0 1rem;
+		}
+	}
 
-  @media (max-width: 927px) {
-    margin-bottom: 3rem;
-  }
-}
+	section {
+		margin-bottom: 5rem;
 
-.box-wrapper {
-  padding: 0 2rem; /* Add padding to the wrapper to control side margins */
+		@media (max-width: 927px) {
+			margin-bottom: 3rem;
+		}
+	}
 
-  @media (max-width: 927px) {
-    padding: 0 1rem;
-  }
-}
+	.box-wrapper {
+		padding: 0 2rem; /* Add padding to the wrapper to control side margins */
 
-.box {
-  display: flex;
-  flex-direction: column; /* Ensure items are stacked vertically */
-  padding: 2rem;
-  margin-bottom: 4rem;
-  background: $offblue;
-  border-radius: 3vh;
-  border: 1px solid $orange;
+		@media (max-width: 927px) {
+			padding: 0 1rem;
+		}
+	}
 
-  @media (max-width: 927px) {
-    padding: 1rem;
-  }
+	.box {
+		display: flex;
+		flex-direction: column; /* Ensure items are stacked vertically */
+		padding: 2rem;
+		margin-bottom: 4rem;
+		background: $offblue;
+		border-radius: 3vh;
+		border: 1px solid $orange;
 
-  .box-title {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: $offwhite;
-  }
+		@media (max-width: 927px) {
+			padding: 1rem;
+		}
 
-  .training-item {
-    margin-bottom: 1rem;
+		.box-title {
+			font-size: 2rem;
+			margin-bottom: 1rem;
+			color: $offwhite;
+		}
 
-    .title {
-      font-size: 1.5rem;
-      margin-bottom: 0.5rem;
-    }
+		.training-item {
+			margin-bottom: 1rem;
 
-    .link {
-      color: $grey; /* Change link color to grey */
-      text-decoration: none;
+			.title {
+				font-size: 1.5rem;
+				margin-bottom: 0.5rem;
+			}
 
-      &:hover {
-        text-decoration: underline;
-        color: $orange;
-        transition: .2s ease;
-      }
-    }
-  }
+			.link {
+				color: $grey; /* Change link color to grey */
+				text-decoration: none;
 
-  .left {
-    flex: 0.9 1;
-    margin: 2rem;
+				&:hover {
+					text-decoration: underline;
+					color: $orange;
+					transition: 0.2s ease;
+				}
+			}
+		}
 
-    @media (max-width: 927px) {
-      margin: 1rem 0;
-    }
+		.left {
+			flex: 0.9 1;
+			margin: 2rem;
 
-    .title {
-      font-size: 1.5rem;
-      margin-bottom: 0.5rem;
-    }
+			@media (max-width: 927px) {
+				margin: 1rem 0;
+			}
 
-    .link-list {
-      .sub-title {
-        font-weight: 300;
-        margin-top: 9px;
-      }
+			.title {
+				font-size: 1.5rem;
+				margin-bottom: 0.5rem;
+			}
 
-      .link {
-        color: $grey; /* Change link color to grey */
-        text-decoration: underline;
-        margin-left: 10px!important;
+			.link-list {
+				.sub-title {
+					font-weight: 300;
+					margin-top: 9px;
+				}
 
-        &:hover {
-          color: $orange;
-          transition: .2s ease;
-        }
-      }
-    }
+				.link {
+					color: $grey; /* Change link color to grey */
+					text-decoration: underline;
+					margin-left: 10px !important;
 
-    .description {
-      font-size: 1.5rem;
-      font-weight: 300;
-      color: $grey;
+					&:hover {
+						color: $orange;
+						transition: 0.2s ease;
+					}
+				}
+			}
 
-      @media (max-width: 927px) {
-        font-size: 1.25rem;
-      }
+			.description {
+				font-size: 1.5rem;
+				font-weight: 300;
+				color: $grey;
 
-      div {
-        color: $grey;
-      }
+				@media (max-width: 927px) {
+					font-size: 1.25rem;
+				}
 
-      a {
-        color: $orange;
+				div {
+					color: $grey;
+				}
 
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-  }
+				a {
+					color: $orange;
 
-  .right {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+					&:hover {
+						text-decoration: underline;
+					}
+				}
+			}
+		}
 
-    img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-  }
+		.right {
+			flex: 1;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 
-  .youtube {
-    margin-bottom: 1rem;
-  }
+			img {
+				max-width: 100%;
+				height: auto;
+				border-radius: 8px;
+			}
+		}
 
-  .training-item {
-    margin-bottom: 1rem;
+		.youtube {
+			margin-bottom: 1rem;
+		}
 
-    .title {
-      font-size: 1.5rem;
-      margin-bottom: 0.5rem;
-    }
+		.training-item {
+			margin-bottom: 1rem;
+			max-width: 80%;
 
-    .link {
-      color: $grey; /* Change link color to grey */
-      text-decoration: none;
+			.title {
+				font-size: 1.5rem;
+				margin-bottom: 0.5rem;
+			}
 
-      &:hover {
-        text-decoration: underline;
-        color: $orange;
-        transition: .2s ease;
-      }
-    }
-  }
+			.link {
+				color: $grey; /* Change link color to grey */
+				text-decoration: none;
+
+				&:hover {
+					text-decoration: underline;
+					color: $orange;
+					transition: 0.2s ease;
+				}
+			}
+		}
+	}
 }

@@ -2,8 +2,6 @@
 
 ### 1. Content Review ☑
 
-We should consider obfuscating the email address, otherwise the coaches email will start getting a bunch of spam.
-
 Are the sponsors up to date? I haven't heard of half of em....
 
 ### 2. Design and Layout ☑
@@ -13,13 +11,9 @@ The subteam pictures need more whitespace around them. could be acheived either 
 RESPNSIVE DESIGN?????
 Theres overflowing text everywhere, no mobile nav, etc.
 
-We probably should switch the twitter logo for the X logo
-
 Go through the branding guide and make sure we're complying with the font uses, logo uses, color uses, etc
 
 ### 3. Functionality ☑
-
-How is that contact form going to work. That seems like it will need a backend which seems unecesary considering that we disclose the email right beside it.
 
 Ideally on the robots page, and then end it'd seemlessly scroll back to the beginning instead of scrolling past all of them to get there
 

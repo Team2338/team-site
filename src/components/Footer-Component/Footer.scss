@@ -1,77 +1,95 @@
 @import "../../globals";
 
-*{
-    color: $offwhite;
-    &:hover {
-        color: $owHighlight;
-        transition: 100ms ease;
-    }
+* {
+	color: $offwhite;
+	&:hover {
+		color: $owHighlight;
+		transition: 100ms ease;
+	}
 }
 
 .cT {
-    color: $offwhite;
-    font-size: 1.5vh;
-    font-weight: 200;
-    padding-left: 8vh;
-    padding-right: 8vh;
-    padding-top: 3vh;
+	color: $offwhite;
+	font-size: 1.5vh;
+	font-weight: 200;
+	// padding-left: 8vh;
+	// padding-right: 8vh;
+	// padding-top: 3vh;
+	padding: 2em;
 
-    height: 10vh;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
 
-    display: flex;
-    flex-direction: row;
+	@media (max-width: 770px) {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
 
-    .fL {
-        width: 40vw;
-        font-size: 2vh;
-    }
+		.fL {
+			grid-column: 1 / 2;
+			grid-row: 2 / 3;
+		}
 
-    .mR {
-        width: 50vw;
-        ul {
-            padding-right: 2vw;
-            padding-left: 2vw;
-            margin: 0;
-            list-style: none;
-            display: flex;
-            gap: 1rem;
+		.mR {
+			grid-column: 1 / 3;
+			grid-row: 1 / 2;
+			margin: auto;
+		}
 
-            &:hover {
-                color: $owHighlight;
-                transition: 150ms ease;
-            }
-        }
+		.fR {
+			grid-column: 2 / 3;
+			grid-row: 2 / 3;
+		}
+	}
 
-        .sMLinks {
-            padding-left: 1rem;
-            a {
-                font-weight: 200;
-                color: $offwhite;
-                font-size: 18px;
-                padding: .35em;
+	.fL {
+		font-size: 2vh;
+	}
 
-                &:hover {
-                    color: $owHighlight;
-                }
-            }
-        }
+	.mR {
+		ul {
+			padding: 0;
+			margin: auto;
+			list-style: none;
+			display: flex;
+			gap: 1rem;
+			justify-content: space-evenly;
 
-        li {
-            transition: all ease 1s;
-            &:hover {
-                color: $offwhite;
-            }
-            &:active {
-                color: $owHighlight;
-            }
-        }
-    }
+			&:hover {
+				color: $owHighlight;
+				transition: 150ms ease;
+			}
+		}
 
-    .fR {
-        width: 10vw;
+		.sMLinks {
+			a {
+				font-weight: 200;
+				color: $offwhite;
+				font-size: 18px;
+				padding: 0.35em;
 
-        .sApp {
-            font-size: 2vh;
-        }
-    }
+				&:hover {
+					color: $owHighlight;
+				}
+			}
+		}
+
+		li {
+			transition: all ease 1s;
+			&:hover {
+				color: $offwhite;
+			}
+			&:active {
+				color: $owHighlight;
+			}
+		}
+	}
+
+	.fR {
+		text-align: right;
+
+		.sApp {
+			font-size: 2vh;
+		}
+	}
 }
